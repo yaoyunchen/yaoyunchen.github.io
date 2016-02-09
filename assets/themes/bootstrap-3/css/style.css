@@ -13,9 +13,6 @@
 /*.navbar .nav {
   float: right; }*/
 
-
-
-
 /* posts index */
 .post > h3.title {
   position: relative;
@@ -70,3 +67,56 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+
+
+#profile-pic {
+  background-image: url("/assets/images/profile_pic.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.icon {
+  width: 21px;
+  height: auto;
+}
+
+
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+}
+
+.carousel{
+  height: 350px;
+}
+
+.carousel < img{
+  top: 0;
+  left: 0;
+  height: 250px;
+}
+
+.carousel-indicators{
+  margin-bottom: 0;
+}
+
+.carousel-inner{
+  height: 100%;
+}
+
+.item{
+  height: 100%;
+}
+
+.item img {
+  height: 50%;
+  text-align: center
+  vertical-align: center;
+  color: gray;
+}
+
+.carousel-caption{
+ height:100%;
+ vertical-align: bottom;
+ color: black;
+}
